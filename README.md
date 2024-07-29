@@ -23,6 +23,27 @@ The objective of this project is to create a robust and accurate system capable 
 4. **Training**: Split the data into training and testing sets and used cross-validation to fine-tune model parameters.
 5. **Evaluation**: Assessed the models using standard metrics and selected the best-performing model.
 6. **Deployment**: Developed a user-friendly web interface for easy access to the categorization system.
+## Data
+
+The data required for training and testing the models is not included in this repository due to its large size. 
+
+To use the data, please follow these steps:
+
+1. **Download the Data**:
+   - The data can be downloaded from google search CASIA-WebFace. Alternatively, if the data is not publicly available, please contact the repository maintainer.
+
+2. **Organize the Data**:
+   - Once downloaded, organize the data in the following directory structure within your local repository:
+     ```
+     /project_root
+         |-- data
+             |-- train
+             |-- validation
+             |-- test
+     ```
+
+3. **Data Preprocessing**:
+   - Ensure the data is preprocessed as described in the preprocessing section of the code (e.g., normalization, resizing, etc.).
 
 ## Code Description
 
